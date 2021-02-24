@@ -3,10 +3,11 @@ package cosmosapi
 import (
 	"crypto/hmac"
 	"crypto/sha256"
-	"dbswitchgo"
 	"encoding/base64"
 	"fmt"
 	"strings"
+
+	"github.com/Lornzo/dbswitchgo"
 )
 
 // CosmosAPIResponse ...
